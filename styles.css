@@ -1,0 +1,126 @@
+body, h1, h2, ul, li, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+
+header {
+  background-color: #007acc;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Style the main content sections */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.profile {
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #333;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.social-media {
+  margin-top: 10px;
+}
+
+.icon {
+  color: #333;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Styles for timetable */
+.lesson_number {
+  text-align: center;
+}
+.subject {
+text-align: center;
+}
+.auditory {
+  text-align: center;
+  font-size: 14px;
+}
+.teacher {
+  text-align: center;
+  font-size: 14px;
+}
+.day {
+  text-align: center;
+}
+.date {
+  text-align: center;
+}
+#lab {
+  background-color: #c4e5ff;
+}
+
+#lecture {
+  background-color: #FFFADB;
+}
+#practic {
+  background-color: #E2FFE2;
+}
+#seminar {
+  background-color: #FFF0FF;
+}
+#separator {
+  background-color: #85BDCC;
+  color: white;
+}
+th,td {
+  border-width: 1px;
+  border-color: gray;
+}
+.table {
+  width: 100%;
+}
+/* form styles */
+form {
+  width: 40%;
+  
+}
