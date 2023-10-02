@@ -1,68 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="../styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../styles.css" />
     <title>Лабораторна робота 1</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Головна</a></li>
-                <li><a href="../index.html#about">Про мене</a></li>
-                <li><a href="../index.html#practical-works">Практичні роботи</a></li>
-                <li><a href="../index.html#labs">Лабораторні роботи</a></li>
-            </ul>
-        </nav>
-    </header>
-    <h2>Форма реєстрації</h2>
-    <form action="https://webhook.site/a6956afc-18b9-44a4-bcbc-5e1e4e8ce9ef" method="POST">
-        <div class="form-group">
-            <label for="first_name">Ім'я:</label>
-            <input type="text" class="form-control" id="first_name" name="first_name" required>
+  </head>
+  <body>
+    <h2 class="form_title">Форма реєстрації</h2>
+    <div class="main_form ">
+      <form
+        action="https://webhook.site/a6956afc-18b9-44a4-bcbc-5e1e4e8ce9ef"
+        method="POST"
+      >
+        <div class="form-group ">
+          <label for="first_name">Ім'я:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="first_name"
+            name="first_name"
+            required
+          />
+        </div>
+        <div class="form-group ">
+          <label for="last_name">Прізвище:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="last_name"
+            name="last_name"
+            required
+          />
         </div>
         <div class="form-group">
-            <label for="last_name">Прізвище:</label>
-            <input type="text" class="form-control" id="last_name" name="last_name" required>
+          <label for="email">Електронна пошта:</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            name="email"
+            required
+          />
         </div>
         <div class="form-group">
-            <label for="email">Електронна пошта:</label>
-            <input type="email" class="form-control" id="email" name="email" required>
+          <label for="password">Пароль:</label>
+          <input
+            type="password"
+            class="form-control"
+            id="password"
+            name="password"
+            required
+          />
         </div>
         <div class="form-group">
-            <label for="password">Пароль:</label>
-            <input type="password" class="form-control" id="password" name="password" required>
+          <label for="confirm_password">Підтвердження паролю:</label>
+          <input
+            type="password"
+            class="form-control"
+            id="confirm_password"
+            name="confirm_password"
+            required
+          />
         </div>
         <div class="form-group">
-            <label for="confirm_password">Підтвердження паролю:</label>
-            <input type="password" class="form-control" id="confirm_password" name="confirm_password" required>
+          <label for="gender">Стать:</label>
+          <select class="form-control" id="gender" name="gender">
+            <option value="male">Чоловік</option>
+            <option value="female">Жінка</option>
+            <option value="other">Інше</option>
+          </select>
         </div>
-        <div class="form-group">
-            <label for="birthdate">Дата народження:</label>
-            <input type="date" class="form-control" id="birthdate" name="birthdate">
-        </div>
-        <div class="form-group">
-            <label for="gender">Стать:</label>
-            <select class="form-control" id="gender" name="gender">
-                <option value="male">Чоловік</option>
-                <option value="female">Жінка</option>
-                <option value="other">Інше</option>
-            </select>
-        </div>
-        <button type="submit" class="btn btn-primary">Зареєструватися</button>
-    </form>
-    <footer>
-        <div class="container">
-            <p>Контакти: mpalamarcuk635@gmail.com</p>
-            <div class="social-media">
-                <a href="#" class="icon">Facebook</a>
-                <a href="#" class="icon">Instagram</a>
-            </div>
-            <p>&copy; Паламарчук Максим</p>
-        </div>
-    </footer>
-</body>
+        <button type="submit" class="btn_primary">Зареєструватися</button>
+      </form>
+    </div>
+  </body>
 </html>

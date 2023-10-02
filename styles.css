@@ -1,4 +1,9 @@
-body, h1, h2, ul, li, p {
+body,
+h1,
+h2,
+ul,
+li,
+p {
   margin: 0;
   padding: 0;
 }
@@ -8,7 +13,6 @@ body {
   font-family: Arial, sans-serif;
   color: #333;
 }
-
 
 header {
   background-color: #007acc;
@@ -79,7 +83,7 @@ footer {
   text-align: center;
 }
 .subject {
-text-align: center;
+  text-align: center;
 }
 .auditory {
   text-align: center;
@@ -100,19 +104,20 @@ text-align: center;
 }
 
 #lecture {
-  background-color: #FFFADB;
+  background-color: #fffadb;
 }
 #practic {
-  background-color: #E2FFE2;
+  background-color: #e2ffe2;
 }
 #seminar {
-  background-color: #FFF0FF;
+  background-color: #fff0ff;
 }
 #separator {
-  background-color: #85BDCC;
+  background-color: #85bdcc;
   color: white;
 }
-th,td {
+th,
+td {
   border-width: 1px;
   border-color: gray;
 }
@@ -120,9 +125,47 @@ th,td {
   width: 100%;
 }
 /* form styles */
-form {
-  width: 40%;
+.main_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
 }
 
+form {
+
+  border: 3px solid #2daafe;
+  background-color: #cacacf;
+  color: rgb(56, 147, 250);
+  width: 20%;
+  padding: 10px 10px 10px 10px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.form-control{
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.form_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.btn_primary {
+  border: none;
+  background-color: #2daafe;
+  width: 80%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
 /*last_name*/
