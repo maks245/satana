@@ -32,7 +32,7 @@ nav ul li {
 
 nav a {
   text-decoration: none;
-  color: #fff;
+  color: #f23924;
   font-weight: bold;
 }
 
@@ -168,4 +168,71 @@ form {
   padding: 10px 20px;
   cursor: pointer;
 }
-/*last_name*/
+/* Lab 3 */
+
+.main_1 {
+  display: flex;
+}
+.main_2 {
+  border:#000000 solid 2px;
+  display: flex;
+  flex-direction: column;
+  width:80%;
+}
+.lmenu {
+  border:#000000 solid 2px;
+  display:flex;
+  flex-direction: column;
+  width: 20%;
+}
+.search {
+  display:flex;
+  border-bottom:#000000 solid 2px;
+  justify-content: space-evenly;
+  flex-direction: row;
+  background-color: #bab9b6; 
+  border-radius: 5px;
+  padding: 10px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+
+}
+.search:hover {
+  background-color: #ffffff; 
+  color: #000000; 
+}
+.categories {
+  display:flex;
+  border-bottom:#000000 solid 1px;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.videos {
+  display: flex;
+  
+  justify-content: space-evenly;
+  margin-bottom: 1%;
+}
+.buttons {
+  border-top:#000000 solid 2px;
+}
+li {
+  border-bottom:#000000 solid 2px;
+}
+li {
+  margin: 10px 0; 
+  font-size: 18px; 
+  font-family: "Arial", sans-serif; 
+  color: #3498db; 
+  background-color: #bab9b6;
+  border-radius: 5px; 
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
