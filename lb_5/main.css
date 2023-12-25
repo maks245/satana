@@ -275,3 +275,148 @@ h3 {
     font-weight: 400;
     word-wrap: break-word;
 }
+.humburger{
+    display: none;
+}
+
+@media (max-width: 769px) {
+    .list_item a {
+        font-size: 14px;
+    }
+
+    .name a {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 426px) {
+
+    .pages_list {
+        position: fixed;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: -20px;
+        left: -100%;
+        width: 50%;
+        height: 100%;
+        padding: 20px 15px;
+        background-color: rgba(0,0,0, .8);
+        transition: 0.6s all;
+    }
+    .active {
+        left: 0;
+    }
+    .humburger {
+        display: block;
+        position: absolute;
+        right: 10px;
+        width: 26px;
+        height: 12px;
+    }
+    .humburger span {
+        display: block;
+        height: 2px;
+        width: 100%;
+        background-color: black;
+        margin-bottom: 2px;
+        transition: 0.5s all;
+    }
+    .humburger_active span {
+        margin-bottom: -2px;
+    }
+    .humburger_active span:nth-child(1) {
+        transform: translateY(3px) rotate(-45deg);
+    }
+    .humburger_active span:nth-child(2) {
+        display: none;
+    }
+    .humburger_active span:nth-child(3) {
+        transform: translateY(3px) rotate(45deg);
+    }
+
+    .list_item a {
+        font-size: 20px;
+        color: #ffff;
+        margin-top: 50px;
+    }
+
+    .main {
+        min-height: 400px;
+    }
+    .hi p {
+        font-size: 20px;
+    }
+    .downlond_button {
+        margin-top: 150px;
+    }
+
+    .icon_container img {
+        width: 200px;
+        height: 200px;
+    }
+    .resent_works {
+        min-height: 400px;
+    }
+
+    .resent_container:nth-child(2) {
+        margin-top: 30px;
+    }
+
+    .feature_info{
+        display: flex;
+        flex-direction: column;
+    }
+    .feature_icon img {
+        margin-right: 100px;
+    }
+}
+
+@media (max-width:321px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container_for_icon img {
+        margin-bottom: 20px;
+    }
+
+    .resent_works {
+        min-height: 400px;
+    }
+
+    .resent_container:nth-child(2) {
+        margin-top: 30px;
+    }
+    .description {
+        width: 250px;
+    }
+
+    .downlond_button {
+        width: 50px;
+        margin-top: 30px;
+    }
+
+    .container_info {
+        max-width: 300px;
+    }
+    .pages_list {
+        width: 70%;
+    }
+    .resent {
+        width: 300px;
+    }
+    .feature_inf{
+        width: 300px;
+    }
+    .feature_icon img{
+        display: block;
+        width: 200px;
+        margin-left: -50px;
+    }
+    .feature_main_info {
+        width: 300px;
+        margin-left: -50px;
+    }
+}
