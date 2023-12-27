@@ -52,7 +52,7 @@ input[type=search]{
     font-size: 20px;
     font-weight: bold;
     align-items: start;
-    padding-left: 10%;
+    padding-left: 5%;
 }
 .item_container, .nav_menu_item{
     width: 230px;
@@ -68,7 +68,9 @@ input[type=search]{
 }
 .category {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+    margin-bottom: 10px;
     
 }
 .button_1 {
@@ -86,15 +88,25 @@ input[type=search]{
 .video { 
     display: flex;
     flex-wrap: wrap;
-    padding: 1.5rem;
-    gap: 4rem 1rem;
+    gap: 4rem 3rem;
     justify-content: center;
 
 }
 
 
-img{
+
+
+.logo{
     margin: 10px;
-    max-width: 200px;
+    max-width: 300px;
     max-height: 200px;
+}
+.videos{
+    width: 200px;
+    height: 200px;
+
+}
+.image {
+    width: 200px;
+    height: 200px;
 }
